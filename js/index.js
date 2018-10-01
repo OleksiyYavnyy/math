@@ -6,7 +6,7 @@ function solveQuadrEq(a, b, c) {
         return 'x1 = ' + x1 + ' x2 = ' + x2;
     } else if (d === 0) {
         x = -b / (2 * a);
-        return x;
+        return 'x = ' + x;
     } else {
         return 'Sorry Michael just math';
     }
