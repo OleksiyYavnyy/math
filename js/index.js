@@ -12,8 +12,6 @@ function solveQuadrEq(a, b, c) {
     }
 }
 
-
-
 function calcDiscr(a, b, c){
     const d = b*b-4*a*c;
     return d;
